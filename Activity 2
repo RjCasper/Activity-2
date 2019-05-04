@@ -1,0 +1,155 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+	int a,b,c;
+	
+	cout << "  The following are number conversions for each month:\n\n";
+	
+	cout << "	01=January		02=February		03=March		04=April\n";
+	cout << "	05=May			06=June			07=July			08=August\n";
+	cout << "	09=September		10=October		11=November		12=December\n\n\n";
+	
+	cout << "NOTE: Enter a valid date you prefer\n\n";
+	
+	cout << "Enter Month:	";
+	cin >> a;
+	cout << "Enter day:	";
+	cin >> b;
+	cout << "Enter Year:	";
+	cin >> c;
+	
+	switch (a)
+	{
+		case 1:
+			if (b>=1 && b<=31)
+			{
+				cout << "	January " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 2:
+			if (b>=1 && b<=28)
+			{
+				cout << "	February " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 3:
+			if (b>=1 && b<=31)
+			{
+				cout << "	March " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 4:
+			if (b>=1 && b<=30)
+			{
+				cout << "	April " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 5:
+			if (b>=1 && b<=31)
+			{
+				cout << "	May " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 6:
+			if (b>=1 && b<=30)
+			{
+				cout << "	June " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 7:
+			if (b>=1 && b<=31)
+			{
+				cout << "	July " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 8:
+			if (b>=1 && b<=31)
+			{
+				cout << "	August " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 9:
+			if (b>=1 && b<=30)
+			{
+				cout << "	September " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 10:
+			if (b>=1 && b<=31)
+			{
+				cout << "	October " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 11:
+			if (b>=1 && b<=30)
+			{
+				cout << "	November " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+		case 12:
+			if (b>=1 && b<=31)
+			{
+				cout << "	December " << b << "," << c;
+			}
+			else
+			{
+				cout << "Invalid date!";
+			}
+			break;
+			
+	}
+	
+	
+cout << endl << endl;
+system("pause");
+system("cls");
+}
+
